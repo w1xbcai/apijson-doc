@@ -420,7 +420,7 @@ SELECT `id`,`date`,`content`,`praiseUserIdList` FROM `thea`.`Moment` LIMIT 5 OFF
 
 MOMENT 表示评论，每一条评论会有一个发表评论的用户 USER，所以 MOMENT 表里会有一个 USER 表的外键关联
 
-对于这样的数据关系，我们在查询评论时，很多时候我们会连带着用户一起查处来，这样又如何操作呢
+对于这样的数据关系，我们在查询评论时，很多时候我们会连带着用户一起查出来，这样又如何操作呢
 
 ```json
 {
